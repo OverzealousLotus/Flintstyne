@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "flintstyne:bedrock_ore/tcon/cobalt"
+  ],
+  "step": "underground_ores"
+}

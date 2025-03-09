@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "simplyswords:gold_chakram"
+  },
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_gold",
+    "unit_size": 10
+  },
+  "byproducts": [
+    {
+      "amount": 40,
+      "tag": "forge:molten_iron"
+    }
+  ],
+  "temperature": 700,
+  "time": 140
+}

@@ -1,0 +1,24 @@
+{
+    "type": "forge:remove_features",
+    "biomes": "#minecraft:is_overworld",
+    "features": [
+        "bedrockores:overworld_coal",
+        "bedrockores:overworld_copper",
+        "bedrockores:overworld_diamond",
+        "bedrockores:overworld_emerald",
+        "bedrockores:overworld_gold",
+        "bedrockores:overworld_iron",
+        "bedrockores:overworld_lapis",
+        "bedrockores:overworld_redstone",
+        "thermal:lead_ore",
+        "thermal:silver_ore",
+        "galosphere:ore_silver_large",
+        "galosphere:ore_silver_small",
+        "caverns_and_chasms:ore_gold_and_silver_lower",
+        "caverns_and_chasms:ore_gold_buried_with_silver",
+        "caverns_and_chasms:ore_silver_buried_with_gold",
+        "caverns_and_chasms:ore_silver_extra",
+        "oreganized:silver_ore"
+    ],
+    "step": "underground_ores"
+}

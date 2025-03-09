@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "flintstyne:bedrock_ore/vanilla/coal",
+    "flintstyne:bedrock_ore/vanilla/copper",
+    "flintstyne:bedrock_ore/vanilla/diamond",
+    "flintstyne:bedrock_ore/vanilla/emerald",
+    "flintstyne:bedrock_ore/vanilla/gold",
+    "flintstyne:bedrock_ore/vanilla/iron",
+    "flintstyne:bedrock_ore/vanilla/lapis",
+    "flintstyne:bedrock_ore/vanilla/redstone",
+    "flintstyne:bedrock_ore/iceandfire/silver",
+    "flintstyne:ore_obsidian_small",
+    "flintstyne:extra_ore/silver"
+  ],
+  "step": "underground_ores"
+}
