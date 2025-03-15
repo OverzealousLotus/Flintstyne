@@ -12,7 +12,10 @@
     "flintstyne:bedrock_ore/vanilla/redstone",
     "flintstyne:bedrock_ore/iceandfire/silver",
     "flintstyne:ore_obsidian_small",
-    "flintstyne:extra_ore/silver"
+    "flintstyne:extra_ore/silver",
+    "flintstyne:deepcore/scattered_magma",
+    "flintstyne:deepcore/scattered_obsidian",
+    "flintstyne:deepcore/unstable_geysers"
   ],
   "step": "underground_ores"
 }
