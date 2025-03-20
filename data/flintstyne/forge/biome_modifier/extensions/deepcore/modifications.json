@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "flintstyne:deepcore/scattered_magma",
+    "flintstyne:deepcore/scattered_obsidian",
+    "flintstyne:deepcore/unstable_geysers"
+  ],
+  "step": "local_modifications"
+}

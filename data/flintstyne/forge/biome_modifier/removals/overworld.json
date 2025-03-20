@@ -18,7 +18,9 @@
         "caverns_and_chasms:ore_gold_buried_with_silver",
         "caverns_and_chasms:ore_silver_buried_with_gold",
         "caverns_and_chasms:ore_silver_extra",
-        "oreganized:silver_ore"
+        "oreganized:silver_ore",
+        "embers:ore_lead_placer",
+        "embers:ore_silver_placer"
     ],
     "step": "underground_ores"
 }
