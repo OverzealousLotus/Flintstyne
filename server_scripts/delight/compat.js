@@ -1,6 +1,7 @@
 // priority: 0
 // requires: farmersdelight
 // requires: alexsmobs
+// requires: create
 
 ServerEvents.tags('item', tags => {
   tags.add('forge:egg', '#alexsmobs:toucan_breedables'); // Tag `alexsmobs` eggs with `#forge:egg`
