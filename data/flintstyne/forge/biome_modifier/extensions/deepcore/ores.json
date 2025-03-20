@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "flintstyne:deepcore/ore/diamond_small",
+    "flintstyne:deepcore/ore/ancient_small"
+  ],
+  "step": "underground_ores"
+}
