@@ -9,22 +9,24 @@ ServerEvents.recipes(recipes => {
     );
   }
 
-  recipes.remove({ id: "swem:rosette_blue" });
-  recipes.remove({ id: "swem:rosette_red" });
-  recipes.remove({ id: "swem:rosette_yellow" });
-  recipes.remove({ id: "swem:rosette_green" });
-  recipes.remove({ id: "swem:rosette_cyan" });
-  recipes.remove({ id: "swem:rosette_pink" });
-  recipes.remove({ id: "swem:rosette_white" });
-  recipes.remove({ id: "swem:rosette_black" });
-  recipes.remove({ id: "swem:rosette_magenta" });
-  recipes.remove({ id: "swem:rosette_brown" });
-  recipes.remove({ id: "swem:rosette_orange" });
-  recipes.remove({ id: "swem:rosette_lime" });
-  recipes.remove({ id: "swem:rosette_gray" });
-  recipes.remove({ id: "swem:rosette_light_gray" });
-  recipes.remove({ id: "swem:rosette_purple" });
-  recipes.remove({ id: "swem:rosette_light_blue" });
+  recipes.remove([
+    'swem:rosette_blue',
+    'swem:rosette_red',
+    'swem:rosette_yellow',
+    'swem:rosette_green',
+    'swem:rosette_cyan',
+    'swem:rosette_pink',
+    'swem:rosette_white',
+    'swem:rosette_black',
+    'swem:rosette_magenta',
+    'swem:rosette_brown',
+    'swem:rosette_orange',
+    'swem:rosette_lime',
+    'swem:rosette_gray',
+    'swem:rosette_light_gray',
+    'swem:rosette_purple',
+    'swem:rosette_light_blue'
+  ]);
   
   coinFix('copper_ingot');
   coinFix('iron_ingot');

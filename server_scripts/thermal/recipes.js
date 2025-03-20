@@ -1,17 +1,19 @@
 // priority: 0
 // requires: thermal
 ServerEvents.recipes(recipes => {
-  recipes.remove({ id: "thermal:storage/potato_block" });
-  recipes.remove({ id: "thermal:storage/apple_block" });
-  recipes.remove({ id: "thermal:storage/carrot_block" });
-  recipes.remove({ id: "thermal:storage/beetroot_block" });
-  recipes.remove({ id: "thermal:storage/netherite_nugget_from_ingot" });
-  recipes.remove({ id: "thermal:storage/steel_block" });
-  recipes.remove({ id: "thermal:storage/copper_ingot_from_nuggets" });
-  recipes.remove({ id: "thermal:storage/charcoal_block" });
-  recipes.remove({ id: "thermal:storage/gunpowder_block" });
-  recipes.remove({ id: "thermal:storage/sugar_cane_block" });
-  recipes.remove({ id: "thermal:storage/steel_ingot_from_nuggets" });
-  recipes.remove({ id: "thermal:storage/copper_nugget_from_ingot" });
+  recipes.remove([
+    'thermal:storage/potato_block',
+    'thermal:storage/apple_block',
+    'thermal:storage/carrot_block',
+    'thermal:storage/beetroot_block',
+    'thermal:storage/netherite_nugget_from_ingot',
+    'thermal:storage/steel_block',
+    'thermal:storage/copper_ingot_from_nuggets',
+    'thermal:storage/charcoal_block',
+    'thermal:storage/gunpowder_block',
+    'thermal:storage/sugar_cane_block',
+    'thermal:storage/steel_ingot_from_nuggets',
+    'thermal:storage/copper_nugget_from_ingot'
+  ]);
 });
 

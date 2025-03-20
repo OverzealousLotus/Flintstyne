@@ -72,7 +72,6 @@ ServerEvents.recipes(recipes => {
         time: 120
       });
     }
-    
   }
   
   WEAPONS.forEach(type => {

@@ -16,12 +16,4 @@ ServerEvents.recipes(recipes => {
   recipes.remove({ id: 'gobber2:gobber2_ore_gobber_smelting' });
   recipes.remove({ id: 'quark:tweaks/crafting/dirty_glass' });
   recipes.remove({ id: 'quark:tweaks/crafting/utility/misc/charcoal_to_black_dye' });
-
-  recipes.remove({ id: "twigs:calcite_stairs" });
-  recipes.remove({ id: "twigs:calcite_wall" });
-  recipes.remove({ id: "twigs:polished_amethyst" });
-  recipes.remove({ id: "twigs:tuff_wall" });
-  recipes.remove({ id: "twigs:tuff_stairs" });
-  recipes.remove({ id: "twigs:cobblestone_bricks" });
-  recipes.remove({ id: "twigs:mossy_cobblestone_bricks_cobblestone" });
 });
