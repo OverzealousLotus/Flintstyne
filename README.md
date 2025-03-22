@@ -15,6 +15,7 @@ Flintstyne is a personal KubeJS package. There are various fixes, tweaks, and co
 
 ### Texture Rips
 - [Ancient Debris Ore & Shard textures](https://www.curseforge.com/minecraft/mc-mods/skays-overworld-netherite-ore)
+- [Rough Spinel textures](https://www.curseforge.com/minecraft/mc-mods/galosphere-spelunkery-oreganized-compat-gsoc)
 
 
 #### Footnote
