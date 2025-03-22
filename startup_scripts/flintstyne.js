@@ -6,6 +6,11 @@ StartupEvents.registry('block', blocks => {
     .soundType(SoundType.DEEPSLATE)
     .requiresTool(true).hardness(30).resistance(1200)
     .tagBlock('minecraft:needs_diamond_tool').tagBlock('minecraft:mineable/pickaxe');
+  blocks.create('flintstyne:rough_spinel_block').displayName('Rough Spinel Block')
+    .textureAll('flintstyne:block/rough_spinel_block')
+    .soundType(SoundType.DEEPSLATE)
+    .requiresTool(true).hardness(30).resistance(1200)
+    .tagBlock('minecraft:needs_diamond_tool').tagBlock('minecraft:mineable/pickaxe');
 });
 
 StartupEvents.registry('item', items => {
@@ -13,6 +18,12 @@ StartupEvents.registry('item', items => {
     .texture('flintstyne:item/small_ancient_shard');
   items.create('flintstyne:large_ancient_shard').displayName('Large Ancient Shard')
     .texture('flintstyne:item/large_ancient_shard');
+  items.create('flintstyne:rough_spinel').displayName('Rough Spinel')
+    .texture('flintstyne:item/rough_spinel')
+  items.create('flintstyne:rough_spinel_shard').displayName('Rough Spinel Shard')
+  .texture('flintstyne:item/rough_spinel_shard')
+  items.create('flintstyne:spinel_shard').displayName('Spinel Shard')
+  .texture('flintstyne:item/spinel_shard')
 });
 
 StartupEvents.registry('fluid', fluids => {
