@@ -33,4 +33,15 @@ function multi_cast_gem(recipes, fluid, result) {
 ServerEvents.recipes(recipes => {
   single_cast_gem(recipes, 'flintstyne:molten_mochite', 'glintstyne:mochite');
   multi_cast_gem(recipes, 'flintstyne:molten_mochite', 'glintstyne:mochite');
+  recipes.custom({
+    type: "tconstruct:casting_basin",
+    cooling_time: 200,
+    "fluid": {
+      amount: 900,
+      fluid: "flintstyne:molten_mochite"
+    },
+    result: {
+      item: "glintstyne:mochite_block"
+    }
+  })
 });
