@@ -16,8 +16,6 @@ ServerEvents.recipes(recipes => {
   recipes.shapeless('flintstyne:rough_spinel_block', '9x flintstyne:rough_spinel');
   recipes.shapeless('9x flintstyne:rough_spinel', 'flintstyne:rough_spinel_block')
   recipes.shapeless('9x flintstyne:rough_spinel_shard', 'flintstyne:rough_spinel')
-
-  recipes.recipes.thermal.press('spelunkery:charcoal_lump', 'supplementaries:ash');
 });
 
 ServerEvents.tags('item', tags => {
