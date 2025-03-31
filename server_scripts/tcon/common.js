@@ -22,6 +22,25 @@ function validateResults(results) {
  * @param {JSON[]} results Array of results. Second parameter sets Byproducts.
  * @param {Number} temp Required temperature.
  * @param {Number} time Time taken to melt item. */
+function melting(recipes, ingredient, results, temp, time) {
+  results = validateResults(results);
+  if (results === undefined) return;
+  recipes.custom({
+    type: "tconstruct:melting",
+    ingredient: ingredient,
+    result: results[0],
+    byproducts: results[1],
+    temperature: temp,
+    time: time
+  });
+}
+
+/**
+ * @param {Internal.RecipesEventJS} recipes Recipe handler.
+ * @param {JSON} ingredient Target item(s).
+ * @param {JSON[]} results Array of results. Second parameter sets Byproducts.
+ * @param {Number} temp Required temperature.
+ * @param {Number} time Time taken to melt item. */
 function damagable(recipes, ingredient, results, temp, time) {
   results = validateResults(results);
   if (results === undefined) return;
