@@ -1,6 +1,22 @@
 // priority: 0
 // requires: tconstruct
-// requires: aether
+const TEMP = {
+  COPPER: 500,
+  IRON: 800,
+  GOLD: 700,
+  DIAMOND: 1450,
+  NETHERITE: 1250,
+  MOCHITE: 900
+};
+
+const MOLTEN = {
+  COPPER: 'forge:molten_copper',
+  IRON: 'forge:molten_iron',
+  GOLD: 'forge:molten_gold',
+  DIAMOND: 'tconstruct:molten_diamond',
+  NETHERITE: 'forge:molten_netherite',
+  STEEL: 'forge:molten_steel'
+};
 
 /**
  * Validates if results will not cause issues, and parses if so.
