@@ -13,7 +13,8 @@
     "flintstyne:bedrock_ore/iceandfire/silver",
     "flintstyne:bedrock_ore/oreganized/lead",
     "flintstyne:ore_obsidian_small",
-    "flintstyne:extra_ore/silver"
+    "flintstyne:extra_ore/silver",
+    "flintstyne:decor/compressed_stone"
   ],
   "step": "underground_ores"
 }
