@@ -1,24 +1,24 @@
 {
-    "type": "forge:remove_features",
-    "biomes": "#minecraft:is_overworld",
-    "features": [
-        "bedrockores:overworld_coal",
-        "bedrockores:overworld_copper",
-        "bedrockores:overworld_diamond",
-        "bedrockores:overworld_emerald",
-        "bedrockores:overworld_gold",
-        "bedrockores:overworld_iron",
-        "bedrockores:overworld_lapis",
-        "bedrockores:overworld_redstone",
-        "galosphere:ore_silver_large",
-        "galosphere:ore_silver_small",
-        "caverns_and_chasms:ore_gold_and_silver_lower",
-        "caverns_and_chasms:ore_gold_buried_with_silver",
-        "caverns_and_chasms:ore_silver_buried_with_gold",
-        "caverns_and_chasms:ore_silver_extra",
-        "oreganized:silver_ore",
-        "embers:ore_lead_placer",
-        "embers:ore_silver_placer"
-    ],
-    "step": "underground_ores"
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "bedrockores:overworld_coal",
+    "bedrockores:overworld_copper",
+    "bedrockores:overworld_diamond",
+    "bedrockores:overworld_emerald",
+    "bedrockores:overworld_gold",
+    "bedrockores:overworld_iron",
+    "bedrockores:overworld_lapis",
+    "bedrockores:overworld_redstone",
+    "galosphere:ore_silver_large",
+    "galosphere:ore_silver_small",
+    "caverns_and_chasms:ore_gold_and_silver_lower",
+    "caverns_and_chasms:ore_gold_buried_with_silver",
+    "caverns_and_chasms:ore_silver_buried_with_gold",
+    "caverns_and_chasms:ore_silver_extra",
+    "oreganized:silver_ore",
+    "embers:ore_lead_placer",
+    "embers:ore_silver_placer"
+  ],
+  "step": "underground_ores"
 }

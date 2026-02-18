@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "flintstyne:block/mantle_top",
+    "side": "flintstyne:block/mantle_side"
+  }
+}

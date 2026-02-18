@@ -11,6 +11,18 @@ StartupEvents.registry("block", (blocks) => {
     .resistance(1200)
     .tagBlock("minecraft:needs_diamond_tool")
     .tagBlock("minecraft:mineable/pickaxe");
+
+  blocks
+    .create("flintstyne:mantle")
+    .displayName("Mantle")
+    .textureAll("flintstyne:block/mantle")
+    .soundType(SoundType.ANCIENT_DEBRIS)
+    .requiresTool(true)
+    .hardness(75)
+    .resistance(1200)
+    .tagBlock("minecraft:needs_diamond_tool")
+    .tagBlock("minecraft:mineable/pickaxe");
+
 });
 
 StartupEvents.registry("item", (items) => {
