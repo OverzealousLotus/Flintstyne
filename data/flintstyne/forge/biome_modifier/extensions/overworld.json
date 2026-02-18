@@ -14,7 +14,9 @@
     "flintstyne:bedrock_ore/oreganized/lead",
     "flintstyne:ore_obsidian_small",
     "flintstyne:extra_ore/silver",
-    "flintstyne:decor/compressed_stone"
+    "flintstyne:decor/compressed_stone",
+    "flintstyne:ore_diamond_small",
+    "flintstyne:mantle"
   ],
   "step": "underground_ores"
 }

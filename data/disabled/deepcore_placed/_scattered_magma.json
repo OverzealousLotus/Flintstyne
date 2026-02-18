@@ -1,5 +1,5 @@
 {
-  "feature": "flintstyne:deepcore/scattered_obsidian",
+  "feature": "flintstyne:deepcore/scattered_magma",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
@@ -10,7 +10,7 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -124
+          "absolute": -96
         },
         "max_inclusive": {
           "absolute": -64
