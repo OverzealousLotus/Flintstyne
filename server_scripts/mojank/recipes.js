@@ -1,6 +1,6 @@
 // priority: 0
 
-const MATERIALS = ['iron', 'gold', 'diamond', 'netherite'];
+const MATERIALS = ['iron', 'golden', 'diamond', 'netherite'];
 
 /**
  * @param {Internal.RecipesEventJS} recipes Recipe handler.
@@ -94,5 +94,5 @@ ServerEvents.recipes(recipes => {
     'minecraft:crafting_table'
   ]);
 
-  lockPickaxes(recipes);
+  lockVanillaGear(recipes);
 });
