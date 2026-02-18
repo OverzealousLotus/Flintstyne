@@ -1,0 +1,11 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "allomancy:tin_ore",
+    "allomancy:zinc_ore",
+    "allomancy:lead_ore",
+    "allomancy:silver_ore"
+  ],
+  "step": "underground_ores"
+}
