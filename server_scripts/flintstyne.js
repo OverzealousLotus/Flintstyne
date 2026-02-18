@@ -108,13 +108,13 @@ ServerEvents.genericLootTables((tables) => {
 PlayerEvents.loggedIn((event) => {
   if (!event.player.stages.has("new_join")) {
     event.player.stages.add("new_join");
-    event.server.runCommandSilent(`give ${event.entity.username} stone_sword`);
-    event.server.runCommandSilent(`give ${event.entity.username} bread 5`);
-    event.server.runCommandSilent(
-      `give ${event.entity.username} firstaid:bandage 7`,
-    );
-    event.entity.setItemSlot(5, "minecraft:leather_helmet");
-    event.entity.setItemSlot(4, "minecraft:leather_chestplate");
+    event.server.runCommandSilent(`clear ${event.entity.username}`);
+    event.server.runCommandSilent(`give ${event.entity.username} stone_sword{Enchantments:[{id:"minecraft:knockback",lvl:1}]}`);
+    event.server.runCommandSilent(`give ${event.entity.username} wooden_axe{Enchantments:[{id:"minecraft:efficiency",lvl:2}]}`);
+    event.server.runCommandSilent(`give ${event.entity.username} bread 7`);
+    event.server.runCommandSilent(`give ${event.entity.username} sophisticatedbackpacks:copper_backpack`);
+    event.entity.setItemSlot(5, "tinkers_things:makeshift_helmet");
+    event.entity.setItemSlot(4, "minecraft:chainmail_chestplate");
     event.entity.setItemSlot(3, "minecraft:leather_leggings");
     event.entity.setItemSlot(2, "minecraft:leather_boots");
   }
